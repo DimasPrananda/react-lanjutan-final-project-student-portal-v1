@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d8bef42.css",
+    "main.js": "/static/js/main.6c025b5c.js",
+    "static/media/going-merry-one-piece-uhdpaper.com-hd-6.21.jpg": "/static/media/going-merry-one-piece-uhdpaper.com-hd-6.21.799f97aba5fa924c3595.jpg",
+    "index.html": "/index.html",
+    "main.5d8bef42.css.map": "/static/css/main.5d8bef42.css.map",
+    "main.6c025b5c.js.map": "/static/js/main.6c025b5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d8bef42.css",
+    "static/js/main.6c025b5c.js"
+  ]
+}

@@ -1,0 +1,284 @@
+body {
+  background-color: #0069d9;
+}
+
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../assets/going-merry-one-piece-uhdpaper.com-hd-6.21.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-home {
+  height: fit-content;
+  width: fit-content;
+}
+
+.home-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: chartreuse; */
+  width: 40%;
+  margin: 0 auto;
+}
+
+.title-group {
+  color: #fff;
+  align-items: center;
+  display: grid;
+  width: 50%;
+  /* background-color: aqua; */
+}
+.portal-group {
+  color: #fff;
+  align-items: center;
+  display: grid;
+  width: 50%;
+  /* background-color: blue; */
+}
+
+.vertical-line {
+  flex: 0 0 1px;
+  background-color: #000;
+  margin: 0 20px;
+}
+
+.button-primary {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: lighter;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-primary:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #0069d9;
+  color: #fff;
+  font-weight: lighter;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-title {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.button-navbar {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: lighter;
+  padding: 10px;
+  border-radius: 5px;
+}
+.button-navbar:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: transparent;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+.body-student {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.filter-container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: #007bff; */
+}
+
+.table-title {
+  font-weight: lighter;
+}
+
+.filter {
+  border-radius: 5px;
+  border-color: rgb(108, 108, 108);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 30px;
+}
+
+Table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+Th {
+  padding: 8px;
+  text-align: center;
+}
+Td {
+  text-align: left;
+  padding: 8px;
+}
+
+Th {
+  color: rgb(0, 0, 0);
+}
+
+.text-name {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.index-column {
+  text-align: center;
+}
+
+.button-column {
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit {
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding-top: 40px;
+  /* width: 100vh; */
+  /* background-color: #007bff; */
+}
+
+.edit-page {
+  /* background-color: #007bff; */
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.edit-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.profile-container {
+  /* background-color: #007bff; */
+  display: flex;
+  width: 20%;
+}
+
+.profile-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.card {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: grid;
+  width: 80%;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-column {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.button-update {
+  margin-top: 10px;
+}
+
+.title-add {
+  font-weight: lighter;
+  /* margin-top: 40px; */
+}
+
+.card-add {
+  margin-top: 20px;
+  display: grid;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-add {
+  display: grid;
+  flex-direction: column;
+}
+
+.not-column {
+  display: grid;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.button-not {
+  background-color: #252525;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0%;
+}
